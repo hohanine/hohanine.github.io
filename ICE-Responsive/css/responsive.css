@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+}
+
+@media only screen and (min-width:650px){ 
+
+/* index.html */
+
+  .top-nav ul {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-left: 25%;
+  }
+  .top-nav ul li {
+    display: inline-block;
+    border-top: 1.5px solid red;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+/* images.html */
+.photo-grid {
+  display: grid;
+  wide: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.photo-cell {
+  grid-column: 1 / span 2;
+  padding: 0;
+  }
+
+.Yellow {
+  grid-column: 1/ 2;
+}
+.Bluish{
+    grid-column: 2/ 2;
+  }
+}
+
+
+@media only screen and (min-width:1000px){
+  /* index.html */
+    .top-nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    width-left: 20%;
+    /* My navigation bar is not center. So I went to see Colleen to solve the navigation bar. It looks like some thing wrong beyond the codes I can do here. ;/  */ */
+  }
+    .top-nav ul li {
+      float: right;
+      border-top: none;
+      text-align: center;
+    }
+
+    .logo{
+      float: left;
+    }
+    /* images.html      */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .photo-cell {
+      grid-column: 1 / span 4;
+      }
+
+     .Black{
+       grid-column: 1/3;
+     }
+
+     .Maroon {
+       grid-column: 3/5;
+     }
+
+
+    .Yellow {
+      grid-column: 1/ 2;
+    }
+    .Bluish{
+        grid-column: 2/ 3;
+      }
+    .Green{
+          grid-column: 3/5;
+        }
+
+    .Light{
+      grid-column: 1/3;
+    }
+
+    .Red{
+      grid-column: 3/5;
+    }
+}
