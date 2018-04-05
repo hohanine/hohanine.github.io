@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+.img-food {
+
+border-radius: 10px;
+border-bottom: 10x solid #660033;
+width: 70%;
+padding-top: 30%;
+}
+}
+
+
+@media only screen and (max-width:480px){
+
+  header.masthead .page-heading h1,header.masthead .site-heading h1,header.masthead .post-heading h1{
+    font-size:2em;
+      }
+
+  header {
+    height:50%;
+  }
+
+  #mainNav .navbar-toggler{
+    font-size:0.5em;
+    font-weight:lighter;
+    padding:10px;
+    text-transform:uppercase;
+    color:#68819b;
+  }
+}
