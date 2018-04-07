@@ -8,8 +8,10 @@
 
   <title>H. is for Happiness.</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap and other references  -->
   <link href="template/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Custom fonts for this template -->
   <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet' type="text/css">
@@ -17,71 +19,72 @@
   <!-- customized CSS-->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 </head>
 
-  <body>
+<body>
+  <!-- Navigation Bar-->
+     <!-- Logo and Brand-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <img class = "img-logo" src="img/Hannah-logo.png" alt="logo">
+      <a class="navbar-brand" href="index.html">H. is for Happiness.</a>
+      <!--For mobile-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-label="menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Navigation Bar-->
-       <!-- Logo and Brand-->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-          <img class = "img-logo" src="img/Hannah-logo.png" alt="logo">
-        <a class="navbar-brand" href="index.html">H. is for Happiness.</a>
-        <!--For mobile-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-label="menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="project.html">Lifestyle</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-          </ul>
-        </div>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Lifestyle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+
 
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/work-bg2.jpg')">
-      <div id="overlay"></div>
+      <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-heading text-center">
-              <h1>Interaction Design</h1>
+            <div class="site-heading text-center">
+              <h1 style="color:yellow">Interaction Design</h1>
               <span class="subheading">Empower the Great UM graduate community members to collaborate, connect, and learn from each other.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
+
   <!-- Post Content -->
   <div class="work">
   <div class="container">
     <div class ="row">
-      <figure class="col-sm-5 challenge">
+      <figure class="col-sm-6 challenge">
         <h4>CHALLENGE</h4>
-        <p>Students who come to University of Michigan (“UM”) for graduate studies tend to have less interaction and collaboration with students not in the same programs or schools. Even though they hope to expand their network across the UM community before graduation, the different academic curriculums, the shorter academic programs, and the busy schedules reduce their motivation to spend extra time searching for resources. In addition, even if many interesting events happen at the University of Michigan, they may not be aware of it because firstly events may promote only within the school it originates from, and secondly, since they have limited interaction with people in other programs, the event info would not be shared across the schools and programs easily. Finally, although there is an existing University of Michigan mobile beta app that provides events across campus, the app is designed for a wide range of purposes, including campus navigation, events, classes…etc, and it does not target graduate students. Therefore, they hope to have a more interactive platform that can assist them to leverage more UM resources they are interested, allow them to personalize their UM experiences, and even redesign their UM journey.</p>
-       </figure>
-
-       <figure class="col-sm-1 space">
-       </figure>
+        <span>Students who come to University of Michigan (“UM”) for graduate studies tend to have less interaction and collaboration with students not in the same programs or schools. Even though they hope to expand their network across the UM community before graduation, the different academic curriculums, the shorter academic programs, and the busy schedules reduce their motivation to spend extra time searching for resources. In addition, even if many interesting events happen at the University of Michigan, they may not be aware of it because firstly events may promote only within the school it originates from, and secondly, since they have limited interaction with people in other programs, the event info would not be shared across the schools and programs easily. Finally, although there is an existing University of Michigan mobile beta app that provides events across campus, the app is designed for a wide range of purposes, including campus navigation, events, classes…etc, and it does not target graduate students. Therefore, they hope to have a more interactive platform that can assist them to leverage more UM resources they are interested, allow them to personalize their UM experiences, and even redesign their UM journey.
+        </span>
+      </figure>
 
        <figure class="col-sm-6 outcome">
          <h4>OUTCOME</h4>
           <img class = "img-umx" src="img/work-bg.jpg" alt="UMX">
-         <p>UMX stands for University of Michigan Experience. It is a digital platoform to encourage cross-school collaboration through designing or participating in UM experience events and learning and sharing knowledge from each other.
-        </p>
+          <br><br>
+         <span>UMX stands for University of Michigan Experience. It is a digital platoform to encourage cross-school collaboration through designing or participating in UM experience events and learning and sharing knowledge from each other.
+        </span>
         </figure>
     </div>
 </div>
@@ -91,22 +94,26 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">>
+      <div class="col-lg-8 col-md-10 mx-auto">
         <div class="footer_item">
-            <a href="https://www.linkedin.com/in/hannah-ho-han-chen"><img class = "img-logo" src="img/linkedin-logo.png" alt="linkedIn hyperlink"></a>
-            <br>
-        <p class="copyright"> &copy; Hannah C.2018</p>
+            <i class="fa fa-linkedin-square" style= "font-size:40px;color:grey"></i>
+        <p class="copyright"> &copy; Hannah C.2018 </p>
       </div>
       </div>
     </div>
   </div>
 </footer>
 
-      <!-- javascript -->
-          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  </body>
+
+<!--customized javascript -->
+<script src="js/javascript.js"></script>
+
+
+</body>
 
 </html>

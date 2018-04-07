@@ -13,18 +13,16 @@ padding-top: 30%;
 @media only screen and (max-width:480px){
 
   header.masthead .page-heading h1,header.masthead .site-heading h1,header.masthead .post-heading h1{
-    font-size:2em;
+    font-size:1em;
       }
-
+  header.masthead .subheading,header.masthead .thirdheading{
+                  font-size: 1em;
+                }
   header {
     height:50%;
   }
 
   #mainNav .navbar-toggler{
-    font-size:0.5em;
-    font-weight:100px;
-    padding:10px;
-    text-transform:uppercase;
-    color:#68819b;
+    float: right;
   }
 }
