@@ -26,3 +26,15 @@ padding-top: 30%;
     float: right;
   }
 }
+
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+
+.img-food {
+
+border-radius: 10px;
+border-bottom: 10x solid #660033;
+width: 70%;
+padding-top: 30%;
+}
+}
