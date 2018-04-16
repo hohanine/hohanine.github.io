@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>SI539 Final Exam</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  
+
+  </head>
+
+  <body style="background-image: url('img/sun.png')">
+    <header class="container">
+      <div class="row">
+    <h1 class="col-sm-12">Hannah Chen </h1>
+  </div>
+  </header>
+
+    <section class="container">
+    <div class="row">
+       <img class = "col-sm-6 pic" id="exam" src="img/examPic.jpg" alt="teacher photo">
+       <img class = "col-sm-6 logo" id="logo" src="img/umsi.jpg" alt="UMSI logo">
+  </div>
+</section>
+
+<section class="container">
+<div class="row">
+   <button type="button" onclick="myFunction()">Hide Image</button>
+   <button type="button" onclick="yourFunction()">Show Image</button>
+</div>
+</section>
+
+
+<script>
+function myFunction() {
+    document.getElementById("exam").style.visibility = "hidden";
+    document.getElementById("logo").style.left = "-300px";
+
+    }
+
+    function yourFunction() {
+        document.getElementById("exam").style.visibility = "visible";
+        document.getElementById("logo").style.left = "0";
+        }
+</script>
+
+  </body>
+
+
+</html>
